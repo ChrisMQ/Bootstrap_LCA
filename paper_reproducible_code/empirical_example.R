@@ -15,6 +15,9 @@ library(combinat)
 ## Load functions
 source("functions.R")
 
+## Load output
+# load("emp.Rdata")
+
 ## Load Stouffer-Toby data
 data(values)
 
