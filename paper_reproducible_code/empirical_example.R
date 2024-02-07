@@ -30,7 +30,7 @@ data(values)
 # verbose: Logical, indicating whether LCA.bt.NB should show a progress bar
 set.seed(123)
 part1 <- LCA.bt.NB(data=values, nrep=20, nrep.bt=1, maxiter=10000, 
-                   K=5, B=200, conf.level=0.95, verbose=T)
+                   K=5, B=500, conf.level=0.95, verbose=T)
 # Table 4
 part1$select.single # number of classes chosen by each index
 part1$indx.value    # values of indices for k varying from 1 to K 
